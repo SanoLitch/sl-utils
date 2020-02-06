@@ -10,9 +10,11 @@
   "author": "Sano Litch",
   "license": "ISC",
   "devDependencies": {
+    "typedoc": "^0.16.9",
     "typescript": "^2.9.2"
   },
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SanoLitch/sl-utils.git"
